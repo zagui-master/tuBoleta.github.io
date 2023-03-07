@@ -22,7 +22,6 @@
       </form>
       <div class="alert" id="alert"></div>
     </div>
-    <script src="./js/main.js"></script>
   </body>
 </html>
 
@@ -72,7 +71,7 @@
 
       if (getTikets <= tiketsDisponibles) {
         tiketsDisponibles = tiketsDisponibles - getTikets;
-        $alert.innerText = `Numero de tikets comprados ${getTikets}`;
+        $alert.innerText = `Numero de tikets comprados ${20}`;
         $alert.classList.add("ok");
         ask = confirm(
           `Numero de tikets disponibles ${tiketsDisponibles}, desea comprar mas?`
