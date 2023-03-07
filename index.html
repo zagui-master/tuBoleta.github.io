@@ -71,7 +71,9 @@
 
       if (getTikets <= tiketsDisponibles) {
         tiketsDisponibles = tiketsDisponibles - getTikets;
-        $alert.innerText = `Numero de tikets comprados ${getTikets}`;
+        $alert.innerText = `Numero de tikets comprados ${
+          tikest - tiketsDisponibles
+        }`;
         $alert.classList.add("ok");
         ask = confirm(
           `Numero de tikets disponibles ${tiketsDisponibles}, desea comprar mas?`
